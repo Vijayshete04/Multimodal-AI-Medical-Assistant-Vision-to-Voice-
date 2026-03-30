@@ -21,7 +21,7 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           # Use the token to push to the Space
-          git push --force https://Vijayshete04:$HF_TOKEN@huggingface.co/spaces/Vijayshete04/Multimodal-AI-Medical-Assistant main
+          git push --force https://Vijayshete04:$HF_TOKEN@huggingface.co/spaces/Vijayshete04/Multimodal-AI-Medical-Assistant.1 main
           
           # Wake up the space
-          curl -I -L https://huggingface.co/spaces/Vijayshete04/Multimodal-AI-Medical-Assistant
+          curl -I -L https://huggingface.co/spaces/Vijayshete04/Multimodal-AI-Medical-Assistant.1
